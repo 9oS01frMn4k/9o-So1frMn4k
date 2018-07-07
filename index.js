@@ -28,7 +28,7 @@ client.on("message", async message => {
      .addField("שם השרת", message.guild.name)
      .addField("Created On", message.guild.createdAt)
      .addField("הצטרפת ב", message.member.joinedAt)
-     .addField("אנשים בטירה.", message.guild.memberCount);
+     .addField("אנשים בטירה", message.guild.memberCount);
 
    return message.channel.send(serverembed);
  }
