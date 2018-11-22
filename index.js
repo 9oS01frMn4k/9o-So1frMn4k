@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Bot is Online!`);
-  client.user.setGame(serverData.players.online + ' of ' + serverData.players.max + ' players are currently online.');
+  client.user.setGame("הבוט מכובה לשיפוצים.");
 });
 
 client.on("message", async message => {
