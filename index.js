@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Bot is Online!`);
-  client.user.setGame("CastleBot | חוזר בקרוב");
+  client.user.setGame("CastleBot | בשיפוצים");
 });
 
 client.on("message", async message => {
